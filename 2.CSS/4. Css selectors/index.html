@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* Element name selector */
+    body {
+      background-color: gray;
+    }
+    h1 {
+      color: white;
+    }
+    /* class selector */
+    .pragraph-1 {
+      color: blue;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+    }
+    /* ID Selector*/
+
+    #para-2 {
+      color: aliceblue;
+      font-weight: bolder;
+      font-size: 20px;
+    }
+    /* attribute selector */
+
+    input[type="password"] {
+      background-color: aqua;
+      border: solid black;
+    }
+    /* Descendant selector */
+    div ul li {
+      color: beige;
+      font-size: 20px;
+      font-style: italic;
+    }
+    /* child selector */
+    div > ul > li {
+      color: black;
+      font-size: 30px;
+      font-style: normal;
+    }
+    /* Universal selector */
+
+    * {
+      font-family: algerian;
+    }
+  </style>
+  <body>
+    <h1>Css selectors</h1>
+    <p class="pragraph-1">This is pragraph using class selector.</p>
+    <p id="para-2">this is pragraph using ID-selector.</p>
+    <input type="text" placeholder="namse" />
+    <input type="password" placeholder="password" />
+    <div>
+      <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+      </ul>
+    </div>
+  </body>
+</html>
